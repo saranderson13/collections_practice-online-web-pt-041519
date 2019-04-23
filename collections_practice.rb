@@ -27,7 +27,7 @@ end
 def swap_elements(array)
   # Accepts an array of any data types.
   # Returns the array with the 2nd & 3rd elements swapped.
-  binding.pry
+  
   array[2] = array.delete_at(1)
   array
 end
@@ -36,6 +36,7 @@ end
 def reverse_array(array)
   # Accepts an array of integers.
   # Returns a copy array with the elements in reverse order.
+  
   
 end
 
