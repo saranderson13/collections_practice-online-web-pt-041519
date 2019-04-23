@@ -47,8 +47,8 @@ def kesha_maker(array)
   
   kesha_ized = []
   array.each do |string|
-    # string
-    kesha_ized << string[2] = "$"
+    string[2] = "$"
+    kesha_ized << string
   end
   kesha_ized
 end
@@ -59,6 +59,7 @@ def find_a(array)
   # Returns all strings that start with "A"
   # Utilizes a high level iterator. (Inherent return.)
   
+  array.collect { |string| string.starts_with?("a") }
 end
 
 
