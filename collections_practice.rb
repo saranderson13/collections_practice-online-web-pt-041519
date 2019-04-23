@@ -18,6 +18,7 @@ def sort_array_char_count(array)
   # Accepts an array of strings.
   # Returns a copy array, ordered from shortest to longest string.
   
+  array.sort_by { |word| word.length }
 end
 
 
