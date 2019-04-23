@@ -28,7 +28,7 @@ def swap_elements(array)
   # Accepts an array of any data types.
   # Returns the array with the 2nd & 3rd elements swapped.
   binding.pry
-  array[2] = array.delete_at(array[1])
+  array[2] = array.delete_at(1)
 end
   
   
