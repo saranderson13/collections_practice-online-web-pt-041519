@@ -1,14 +1,16 @@
 def sort_array_asc(array)
   # Accepts an array of integers.
   # Returns a copy array with the intergers in ascending order.
-  array.sort()
+  
+  array.sort
 end
 
 
 def sort_array_desc(array)
   # Accepts an array of integers.
-  # Returns a copy array with the integers in decsending order.
+  # Returns a copy array with the integers in decsending order.s
   
+  array.sort { |x, y| y <=> x }
 end
 
 
