@@ -45,13 +45,18 @@ def find_a(array)
   # Returns all strings that start with "A"
   # Utilizes a high level iterator. (Inherent return.)
   
+end
+
+
+def sum_array(array)
+  # Accepts an array of integers and returns the sum.
   
+end
+
   
+def add_s(array)
+  # Accepts an array of strings.
+  # Return an array with an "s" added to each word, except "feet".
   
-  
-  
-  
-  
-  
-  
+end
   
