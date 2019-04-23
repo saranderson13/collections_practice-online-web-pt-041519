@@ -73,6 +73,7 @@ end
 def add_s(array)
   # Accepts an array of strings.
   # Return an array with an "s" added to each word, except "feet".
+  binding.pry
   
 end
   
