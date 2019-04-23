@@ -37,7 +37,7 @@ def reverse_array(array)
   # Accepts an array of integers.
   # Returns a copy array with the elements in reverse order.
   
-  
+  array.reverse
 end
 
 
@@ -45,6 +45,10 @@ def kesha_maker(array)
   # Accepts an array of strings.
   # Replaces the 3rd character in each string with "$"
   
+  array.collect do |string|
+    binding.pry
+    string[2] = "$"
+  end
 end
 
 
