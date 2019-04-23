@@ -66,6 +66,9 @@ end
 def sum_array(array)
   # Accepts an array of integers and returns the sum.
   
+  total = 0
+  array.each { |num| total = total + num }
+  total
 end
 
   
