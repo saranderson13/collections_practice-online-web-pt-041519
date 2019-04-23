@@ -73,8 +73,7 @@ end
 def add_s(array)
   # Accepts an array of strings.
   # Return an array with an "s" added to each word, except "feet".
-  array.each_with_index.collect do |word, index|
-    index == 1 ? "#{word}" : "#{word}s"
+  array.each_with_index.collect { |word, index| index == 1 ? "#{word}" : "#{word}s"
   end
   
 end
