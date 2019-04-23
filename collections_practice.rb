@@ -59,7 +59,7 @@ def find_a(array)
   # Returns all strings that start with "A"
   # Utilizes a high level iterator. (Inherent return.)
   
-  array.map { |string| string if string.start_with?("a") }
+  array.select { |string| string.start_with?("a") }
 end
 
 
