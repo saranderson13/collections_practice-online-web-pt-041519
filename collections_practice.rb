@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   # Accepts an array of integers.
   # Returns a copy array with the intergers in ascending order.
