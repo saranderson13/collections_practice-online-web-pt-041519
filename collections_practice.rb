@@ -45,8 +45,7 @@ def kesha_maker(array)
   # Accepts an array of strings.
   # Replaces the 3rd character in each string with "$"
   
-  array.collect do |string|
-    binding.pry
+  array.each do |string|
     string[2] = "$"
   end
 end
