@@ -47,8 +47,8 @@ def kesha_maker(array)
   
   kesha_ized = []
   array.each do |string|
-    string[2] = "$"
-    kesha_ized << string
+    # string
+    kesha_ized << string[2] = "$"
   end
   kesha_ized
 end
